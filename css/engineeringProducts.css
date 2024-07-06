@@ -1,0 +1,518 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* breadcrumb */
+.breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0;
+    margin-bottom: 0rem;
+    list-style: none;
+}
+.breadcrumbMobile{
+    display: none;
+    padding: 20px 0 10px 10px;
+}
+
+.breadcrumbMobile ol li a{
+    font-family: TT Hoves Pro Trial;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #000000;
+}
+
+.borderBottomFromtablet{
+        border-bottom: 1px solid #AFAFAF
+    ;
+}
+
+.missionValueInfofortablet{
+    display: none;
+}
+
+/* breadcrumb */
+
+
+/* hero */
+.allProductBanner{
+    background-image: url("../images/product/allProduct-Banner.png");
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    margin-top: 104px;
+    padding: 80px 0;
+}
+
+.allProductBanner h1{
+    color: #ffffff;
+    padding-bottom:30px;
+}
+/* hero*/
+
+
+
+
+
+
+/* engineering Products */
+
+.engineeringProdutcs{
+
+}
+
+
+.btn2{
+    width: 242px;
+    height: 52px;
+}
+
+.engineeringProdutcsinfo{
+    padding-right: 98px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.engineeringProdutcs img{
+    width: 100%;
+}
+/* engineering Products */
+
+
+
+
+
+
+
+
+
+@media (max-width:1399px){
+    .engineeringProdutcsinfo {
+        padding-right: 93px;
+    }
+}
+
+
+@media (max-width:1280px){
+    .engineeringProdutcsinfo {
+        padding-right: 60px;
+    }
+}
+
+@media (max-width:1199px){
+}
+
+@media (max-width:991px){
+
+    .allProductBanner h1{
+        padding-top: 20px
+        ;
+    }
+
+    .btn2{
+        width: 220px!important;
+        height: 60px;
+    }
+
+    .engineeringProdutcs {
+        padding: 90px 0;
+    }
+
+    .engineeringProdutcs h1{
+        font-family: TT Hoves Pro Trial;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 5px;
+        text-align: left;
+        padding-bottom: 50px;
+    }
+
+    .engineeringProdutcs p{
+        font-family: TT Hoves Pro Trial;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 32px;
+        text-align: left;
+        padding-bottom: 50px;
+    }
+
+    .engineeringProdutcsinfo{
+        padding-bottom: 60px;
+        padding-right: 0;
+    }
+    .engineeringProductimage{
+        width: 100%;
+    }
+
+    .breadcrumbDesktop{
+        display: none;
+    }
+
+    .breadcrumbMobile{
+        display: block;
+        padding: 25px 0;
+        border-bottom: 1px solid #AFAFAF;
+    }
+}
+
+
+@media (max-width:991px){
+
+    .allProductBanner{
+        margin-top: 100px;
+    }
+
+  
+    .engineeringProdutcsinfo {
+        padding-bottom: 30px;
+        padding-right: 0;
+    }
+}
+
+@media (max-width:767px){
+    .engineeringProdutcs {
+        padding: 80px 0;
+    }
+
+    .engineeringProdutcsinfo {
+        padding-right: 10px; 
+    }
+}
+
+
+@media (max-width:575px){
+    .allProductBanner h1{
+        padding-left: 15px;
+
+    }
+
+    .breadcrumbMobile{
+        display: none;
+    }
+    .engineeringProdutcs {
+        padding: 80px 15px;
+    }
+
+}
+
+
+
+@media (max-width:500px){
+    .engineeringProdutcs h1{
+        font-family: TT Hoves Pro Trial;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 5px;
+        text-align: left;
+        padding-bottom: 40px;
+    }
+    .engineeringProdutcs p{
+        font-family: TT Hoves Pro Trial;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        padding-bottom: 40px;
+        padding-right: 20px;
+    }
+}
+
+
+
+@media (max-width:451px){
+    .engineeringProdutcsinfo {
+        padding-bottom: 10px;
+        padding-right: 0;
+    }
+    .engineeringProdutcs {
+        padding: 71px 15px;
+    }
+    .engineeringProdutcs h1{
+        font-size: 25px;
+    }
+    .allProductBanner {
+        margin-top: 100px;
+    }
+    .allProductBanner {
+        padding: 40px 0;
+    }
+    .allProductBanner h1 {
+        padding-left: 17px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    .allProductBanner h1 {
+        padding-top: 0px;
+    }
+
+    .allProductBanner h1 {
+        color: #ffffff;
+        padding-bottom: 0px;
+    }
+    .allProductBanner {
+        padding: 0px 0;
+    }
+.allProductBanner h1{
+    padding: 70px 14px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:407px){
+    .allProductBanner {
+        margin-top: 99px;
+    }
+}
+@media (max-width:404px){
+    .allProductBanner {
+        margin-top: 98px;
+    }
+}
+@media (max-width:401px){
+    .allProductBanner {
+        margin-top: 97px;
+    }
+}
+@media (max-width:398px){
+    .allProductBanner {
+        margin-top: 96px;
+    }
+}
+@media (max-width:396px){
+    .allProductBanner {
+        margin-top: 95px;
+    }
+}
+@media (max-width:393px){
+    .allProductBanner {
+        margin-top: 94px;
+    }
+}
+@media (max-width:390px){
+    .allProductBanner {
+        margin-top: 93px;
+    }
+}
+
+@media (max-width:387px) {
+    .allProductBanner {
+        margin-top: 92px;
+    }
+}
+@media (max-width:384px) {
+    .allProductBanner {
+        margin-top: 91px;
+    }
+}
+@media (max-width:381px) {
+    .allProductBanner {
+        margin-top: 90px;
+    }
+}
+@media (max-width:378px) {
+    .allProductBanner {
+        margin-top: 89px;
+    }
+}
+@media (max-width:375px) {
+    .allProductBanner {
+        margin-top: 88px;
+    }
+}
+@media (max-width:372px) {
+    .allProductBanner {
+        margin-top: 87px;
+    }
+}
+@media (max-width:369px) {
+    .allProductBanner {
+        margin-top: 86px;
+    }
+}
+@media (max-width:366px) {
+    .allProductBanner {
+        margin-top: 85px;
+    }
+}
+@media (max-width:363px) {
+    .allProductBanner {
+        margin-top: 84px;
+    }
+}
+@media (max-width:360px) {
+    .allProductBanner {
+        margin-top: 83px;
+    }
+}
+@media (max-width:357px) {
+    .allProductBanner {
+        margin-top: 82px;
+    }
+}
+@media (max-width:354px) {
+    .allProductBanner {
+        margin-top: 81px;
+    }
+}
+@media (max-width:351px) {
+    .allProductBanner {
+        margin-top: 80px;
+    }
+}
+@media (max-width:348px) {
+    .allProductBanner {
+        margin-top: 79px;
+    }
+}
+@media (max-width:345px) {
+    .allProductBanner {
+        margin-top: 78px;
+    }
+}
+@media (max-width:342px) {
+    .allProductBanner {
+        margin-top: 76px;
+    }
+}
+@media (max-width:339px) {
+    .allProductBanner {
+        margin-top: 76px;
+    }
+}
+@media (max-width:336px) {
+    .allProductBanner {
+        margin-top: 75px;
+    }
+}
+@media (max-width:333px) {
+    .allProductBanner {
+        margin-top: 73px;
+    }
+}
+@media (max-width:330px) {
+    .allProductBanner {
+        margin-top: 73px;
+    }
+}
+@media (max-width:327px) {
+    .allProductBanner {
+        margin-top: 72px;
+    }
+}
+@media (max-width:324px) {
+    .allProductBanner {
+        margin-top: 71px;
+    }
+}
+@media (max-width:321px) {
+    .allProductBanner {
+        margin-top: 69px;
+    }
+}
+
+@media (max-width:315px) {
+    .allProductBanner {
+        margin-top: 68px;
+    }
+}
+@media (max-width:312px) {
+    .allProductBanner {
+        margin-top: 67px;
+    }
+}
+@media (max-width:309px) {
+    .allProductBanner {
+        margin-top: 66px;
+    }
+}
+@media (max-width:306px) {
+    .allProductBanner {
+        margin-top: 65px;
+    }
+}
+@media (max-width:303px) {
+    .allProductBanner {
+        margin-top: 64px;
+    }
+}
+@media (max-width:300px) {
+    .allProductBanner {
+        margin-top: 62px;
+    }
+}
+@media (max-width:295px) {
+    .allProductBanner {
+        margin-top: 60px;
+    }
+}
+@media (max-width:290px) {
+    .allProductBanner {
+        margin-top: 58px;
+    }
+}
+@media (max-width:285px) {
+    .allProductBanner {
+        margin-top: 56px;
+    }
+}
+@media (max-width:280px) {
+    .allProductBanner {
+        margin-top: 54px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:380px){
+    .engineeringProdutcs {
+        padding: 58px 15px;
+    }
+}
+
+
+
+
+@media (max-width:320px){
+    .engineeringProdutcs h1 {
+        line-height: 40px;
+    }
+    .engineeringProdutcs {
+        padding: 38px 15px;
+    }
+    .engineeringProdutcs h1 {
+
+        padding-bottom: 16px;
+    }
+  }

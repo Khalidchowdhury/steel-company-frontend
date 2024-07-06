@@ -1,0 +1,475 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* breadcrumb */
+.breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0;
+    margin-bottom: 0rem;
+    list-style: none;
+}
+.breadcrumbMobile{
+    display: none;
+    padding: 20px 0 10px 10px;
+}
+
+.breadcrumbMobile ol li a{
+    font-family: TT Hoves Pro Trial;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #000000;
+}
+
+.borderBottomFromtablet{
+        border-bottom: 1px solid #AFAFAF
+    ;
+}
+
+.missionValueInfofortablet{
+    display: none;
+}
+
+/* breadcrumb */
+
+
+/* hero */
+.allProductBanner{
+    background-image: url("../images/sitemap.jpg");
+    background-position:center;
+    background-size: cover;
+    object-fit: cover;
+
+    padding: 80px 0;
+    margin-top: 95px;
+}
+
+.allProductBanner h1{
+    color: #ffffff;
+    padding-bottom:30px;
+}
+/* hero*/
+
+
+
+
+
+
+
+.sitemap-list li{
+    margin-top: 15px;
+}
+
+.sitemap-list li a{
+    font-family: TT Hoves Pro Trial;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    color: #000000;
+}
+
+
+.sitemap    ul li{
+    text-decoration: none!important;
+  }
+
+
+
+  .sitemap ul li a {
+    /* Your existing styles here */
+    transition: none;  /* Explicitly prevent transitions */
+}
+
+.sitemap ul li a:hover {
+    color: #ff4a23;  /* Color change on hover without transition */
+}
+
+.sitemap ul li {
+    text-decoration: underline;
+    text-decoration-color: initial;  /* Default color */
+    transition: none;  /* Explicitly prevent transitions */
+}
+
+.sitemap ul li:hover {
+    text-decoration-color: #ff4a23;  /* Change underline color on hover without transition */
+}
+
+
+
+
+@media (max-width:991px){
+    .allProductBanner h1 {
+        padding-top: 20px;
+    }
+
+    .sitemap{
+        margin-top: -20px;
+    }
+
+    .sectionDeviderforDesktopBottomPadding{
+        padding-bottom: 60px;
+    }
+
+    .allProductBanner{
+        background-image: url("../images/sitemap.jpg");
+        background-position:top right;
+        background-size: cover;
+        padding: 60px 0;
+        object-fit: cover;
+    }
+    .breadcrumbDesktop{
+        display: none;
+    }
+
+    .breadcrumbMobile{
+        display: block;
+        padding: 25px 0;
+        border-bottom: 1px solid #AFAFAF;
+    }
+
+    .sitemap-list li a {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+
+    .sectionDeviderforDesktopTopPadding {
+        padding-top: 70px;
+    }
+
+
+       
+}
+
+
+@media (max-width:575px){
+    .breadcrumbMobile{
+        display: none;
+    }
+
+
+
+    .sitemap-list{
+        padding-left: 40px;
+    }
+
+    .allProductBanner h1 {
+      padding-left: 15px;
+    }
+
+}
+
+
+@media (max-width:451px){
+    .custom-padding {
+        padding-bottom: 0rem!important;
+    }
+    .sitemap-list li a {
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .sectionDeviderforDesktopTopPadding {
+        padding-top: 49px;
+    }
+    .sectionDeviderforDesktopBottomPadding {
+        padding-bottom: 40px;
+    }
+    .allProductBanner h1 {
+        padding-top: 40px;
+    }
+    .allProductBanner {
+        margin-top: 85px;
+    }
+    .sitemap-list {
+        padding-left: 44px;
+    }
+    .allProductBanner {
+        padding: 40px 0;
+    }
+/* .sitemap-list li {
+    margin-top: 25px;
+} */
+ol, ul {
+    padding-left: 1.5rem;
+}
+h1 {
+	font-size: 30px;
+}
+.allProductBanner h1 {
+	padding-top: 0px;
+}
+.allProductBanner h1 {
+	color: #ffffff;
+	padding-bottom: 0px;
+}
+.allProductBanner {
+	padding: 0px 0;
+}
+.allProductBanner {
+	margin-top: 100px;
+}
+.allProductBanner h1{
+    padding: 70px 14px;
+}
+}
+
+
+
+
+@media (max-width:407px){
+    .allProductBanner {
+        margin-top: 99px;
+    }
+}
+@media (max-width:404px){
+    .allProductBanner {
+        margin-top: 98px;
+    }
+}
+@media (max-width:401px){
+    .allProductBanner {
+        margin-top: 97px;
+    }
+
+}
+@media (max-width:398px){
+    .allProductBanner {
+        margin-top: 96px;
+    }
+}
+@media (max-width:396px){
+    .allProductBanner {
+        margin-top: 95px;
+    }
+}
+@media (max-width:393px){
+    .allProductBanner {
+        margin-top: 94px;
+    }
+}
+@media (max-width:390px){
+    .allProductBanner {
+        margin-top: 93px;
+    }
+}
+
+@media (max-width:387px) {
+    .allProductBanner {
+        margin-top: 92px;
+    }
+}
+@media (max-width:384px) {
+    .allProductBanner {
+        margin-top: 91px;
+    }
+}
+@media (max-width:381px) {
+    .allProductBanner {
+        margin-top: 90px;
+    }
+}
+@media (max-width:378px) {
+    .allProductBanner {
+        margin-top: 89px;
+    }
+}
+@media (max-width:375px) {
+    .allProductBanner {
+        margin-top: 88px;
+    }
+}
+@media (max-width:372px) {
+    .allProductBanner {
+        margin-top: 87px;
+    }
+}
+@media (max-width:369px) {
+    .allProductBanner {
+        margin-top: 86px;
+    }
+}
+@media (max-width:366px) {
+    .allProductBanner {
+        margin-top: 85px;
+    }
+}
+@media (max-width:363px) {
+    .allProductBanner {
+        margin-top: 84px;
+    }
+}
+@media (max-width:360px) {
+    .allProductBanner {
+        margin-top: 83px;
+    }
+}
+@media (max-width:357px) {
+    .allProductBanner {
+        margin-top: 82px;
+    }
+}
+@media (max-width:354px) {
+    .allProductBanner {
+        margin-top: 81px;
+    }
+}
+@media (max-width:351px) {
+    .allProductBanner {
+        margin-top: 80px;
+    }
+}
+@media (max-width:348px) {
+    .allProductBanner {
+        margin-top: 79px;
+    }
+}
+@media (max-width:345px) {
+    .allProductBanner {
+        margin-top: 78px;
+    }
+}
+@media (max-width:342px) {
+    .allProductBanner {
+        margin-top: 77px;
+    }
+}
+@media (max-width:339px) {
+    .allProductBanner {
+        margin-top: 76px;
+    }
+}
+@media (max-width:336px) {
+    .allProductBanner {
+        margin-top: 75px;
+    }
+}
+@media (max-width:333px) {
+    .allProductBanner {
+        margin-top: 74px;
+    }
+}
+@media (max-width:330px) {
+    .allProductBanner {
+        margin-top: 73px;
+    }
+}
+@media (max-width:327px) {
+    .allProductBanner {
+        margin-top: 72px;
+    }
+}
+@media (max-width:324px) {
+    .allProductBanner {
+        margin-top: 71px;
+    }
+}
+@media (max-width:321px) {
+    .allProductBanner {
+        margin-top: 70px;
+    }
+}
+@media (max-width:318px) {
+    .allProductBanner {
+        margin-top: 69px;
+    }
+}
+@media (max-width:315px) {
+    .allProductBanner {
+        margin-top: 68px;
+    }
+}
+@media (max-width:312px) {
+    .allProductBanner {
+        margin-top: 67px;
+    }
+}
+@media (max-width:309px) {
+    .allProductBanner {
+        margin-top: 66px;
+    }
+}
+@media (max-width:306px) {
+    .allProductBanner {
+        margin-top: 65px;
+    }
+}
+@media (max-width:303px) {
+    .allProductBanner {
+        margin-top: 64px;
+    }
+}
+@media (max-width:300px) {
+    .allProductBanner {
+        margin-top: 62px;
+    }
+}
+@media (max-width:295px) {
+    .allProductBanner {
+        margin-top: 61px;
+    }
+}
+@media (max-width:290px) {
+    .allProductBanner {
+        margin-top: 59px;
+    }
+}
+@media (max-width:285px) {
+    .allProductBanner {
+        margin-top: 57px;
+    }
+}
+@media (max-width:280px) {
+    .allProductBanner {
+        margin-top: 54px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:380px){
+    .sectionDeviderforDesktopTopPadding {
+        padding-top: 41px;
+    }
+}
+
+
+
+
+
+@media (max-width:320px){
+    .sitemap-list li a {
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .sitemap-list {
+        padding-left: 44px;
+        padding-right: 20px;
+    }
+}
+
+
+.custom-container {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.custom-padding {
+    padding-bottom: 1rem; /* Default for desktop */
+}
+

@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Search Result</title>
+        <!-- Author Meta Tag -->
+        <meta name="author" content="Mazharul Islam">
+        <!-- Favicon -->
+        <link rel="icon" href="images/fav.png" type="image/x-icon">
+        <!-- fonts -->
+        <link href="https://fonts.cdnfonts.com/css/tt-hoves-pro-trial" rel="stylesheet">
+
+        <!-- font awesome cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+        <!-- Arimo fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+
+
+        <!-- whatsapp -->
+<link rel="stylesheet" href="css/floating-wpp.min.css">
+
+<!-- aos animation -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+        <!-- carosel -->
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="css/floating-wpp.min.css">
+
+
+        <!-- bootstrap cdn -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- custom stylesheet -->
+        <link rel="stylesheet" href="css/style.css">
+
+        <link rel="stylesheet" href="css/searchresult.css">
+        
+
+    </head>
+    
+
+
+
+<body class="">
+
+
+
+
+
+  <!-- header -->
+  <header class="headerfordesktop">
+    <nav class="navbar bg-white navbar-expand-lg bg-body-tertiary fixed-top">
+      <div class="container container-custom desktopPadding">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/latestlogo.svg" alt="" class="img-fluid">
+        </a>
+  
+        <div class="collapse navbar-collapse justify-content-center">
+          <ul class="navbar-nav justify-content-center flex-grow-1 navpaddingEnd" id="menu">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="aboutUs.html">About Us</a>
+            </li>
+            <li class="nav-item dropdown" id="featureDropdown">
+              <a style="cursor: auto;" class="nav-link" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                Products <i class="ps-3 fa-solid fa-caret-down"></i>
+              </a>
+              <ul class="dropdown-menu dropdown-menu2 shadow" id="featureMenu">
+
+                <li><a class="dropdown-item customnavlink" href="allProduct.html">All Products</a></li>
+
+
+
+                <li id="structuralDropdown" class="dropdown-item dropdown mt-1 test">
+                  <a id="structuralLink" class="dropdown-item customnavlink" href="structuralProducts.html" role="button" aria-haspopup="true" aria-expanded="false">
+                      Structural Products <i class="fa-solid fa-caret-right"></i>
+                  </a>
+                  <ul class="dropdown-menu shadow">
+                    <li><a class="dropdown-item customnavlink test2" href="OffshorePlates.html">Offshore Plates</a></li>
+                    <li><a class="dropdown-item customnavlink" href="StructuralPlates.html">Structural Plates</a></li>
+                    <li><a class="dropdown-item customnavlink" href="PressureVesselPlates.html">Pressure Vessel Plates</a></li>
+                    <li><a class="dropdown-item customnavlink" href="Beams.html">Beams</a></li>
+                    <li><a class="dropdown-item customnavlink" href="Channels.html">Channels</a></li>
+                    <li><a class="dropdown-item customnavlink" href="Flats.html">Flats</a></li>
+                    <li><a class="dropdown-item customnavlink" href="HollowSections.html">Hollow Sections</a></li>
+                    <li><a class="dropdown-item customnavlink" href="Angles.html">Angles</a></li>
+                  </ul>
+                </li>
+
+
+                <li id="pipingDropdown" class="dropdown-item dropdown mt-1">
+                  <a id="pipingLink" class="dropdown-item customnavlink" href="PipingProducts.html" role="button" aria-haspopup="true" aria-expanded="false">
+                      Piping Products <i class="fa-solid fa-caret-right"></i>
+                  </a>
+                  <ul class="dropdown-menu shadow">
+                    <li><a class="dropdown-item customnavlink" href="OffshoreSeamlessPipes.html">Offshore Seamless Pipes</a></li>
+                    <li><a class="dropdown-item customnavlink" href="WeldedPipes.html">Welded Pipes</a></li>
+                    <li><a class="dropdown-item customnavlink" href="StainlessSteelPipes.html">Stainless Steel Pipes</a></li>
+                    <li><a class="dropdown-item customnavlink" href="Fittings.html">Fittings</a></li>
+                    <li><a class="dropdown-item customnavlink" href="Flanges.html">Flanges</a></li>
+                    <li><a class="dropdown-item customnavlink" href="Bolts&Nuts.html">Bolts & Nuts</a></li>
+                    <li><a class="dropdown-item customnavlink" href="Gaskets.html">Gaskets</a></li>
+                  </ul>
+                </li>
+
+
+
+                <li id="fciDropdown" class="dropdown-item dropdown mt-1">
+                  <a id="fciLink" class="dropdown-item customnavlink" href="FControl&InstrumentationProducts.html" role="button" aria-haspopup="true" aria-expanded="false">
+                      FC & I Products <i class="fa-solid fa-caret-right"></i>
+                  </a>
+                  <ul class="dropdown-menu shadow">
+                    <li><a class="dropdown-item customnavlink" href="IndustrialHoses&Fittings.html">Industrial Hoses & Fittings</a></li>
+                    <li><a class="dropdown-item customnavlink" href="Pressure&TemperatureGauges.html">Pressure & Temperature Gauges</a></li>
+                    <li><a class="dropdown-item customnavlink" href="InstrumentTubing&Fittings.html">Instrument Tubings & Fittings</a></li>
+                    <li><a class="dropdown-item customnavlink" href="ManualValves.html">Manual Valves</a></li>
+                    <li><a class="dropdown-item customnavlink" href="InstrumentationValves.html">Instrumentation Valves</a></li>
+                  </ul>
+                </li>
+
+
+
+
+                <li><a class="dropdown-item customnavlink" href="engineeringProduts.html">Engineering Products</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="contactUs.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+  
+        <div class="d-flex lastdesktopdevice">
+          <form class="d-flex search-form" role="search">
+            <input class="form-control form-control2  me-2" type="search" placeholder="Search Product" aria-label="Search">
+            <button class="btn btn1" type="submit">
+              <img src="images/new-icons/white search icon.svg" alt="">
+            </button>
+            
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <header class="headerformobile bg-white">
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col-6">
+                <a class="mobile-logo" href="index.html">
+                    <img src="images/tabsteelnewlogo (1).png" alt="" class="img-fluid">
+                </a>
+            </div>
+            <div class="col-6 text-end">
+                <button class="search-toggler me-4" type="button" aria-label="Toggle search">
+                    <img style="width: 30px;" src="images/new-icons/search-alt.svg" alt="">
+                </button>
+                <button class="mobile-menu-toggler pe-3" type="button" aria-label="Toggle navigation">
+                    <img style="width: 35px;" src="images/new-icons/hamburger.svg" alt="">
+                </button>
+            </div>
+        </div>
+        <div class="row searchContainerWrapper">
+            <div class="col-12">
+                <div class="search-container">
+                    <div class="input-wrapper d-flex align-items-center">
+                        <input type="text" class="search-input border-0" placeholder="Search Products">
+                    </div>
+                    <button class="search-button btn visually-hidden" type="button">
+                        <img style="width: 30px;" src="images/new-icons/white search icon.svg" alt="">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+  <div class="offcanvas-menu">
+    <div class="offcanvas-menu-content">
+      <button class="close-offcanvas" type="button" aria-label="Close">
+        <img src="images/crossiconfornavigation.svg" alt="">
+      </button>
+  
+      <ul class="mobile-menu-nav">
+        <li class="mobile-menu-item">
+          <a class="mobile-menu-link" href="index.html">Home</a>
+        </li>
+        <li class="mobile-menu-item">
+          <a class="mobile-menu-link" href="aboutUs.html">About Us</a>
+        </li>
+  
+        <li class="mobile-menu-item mobile-menu-dropdown">
+          <a class="mobile-menu-link" href="#">Products <i class="mobile-menu-caret"></i>
+            <span class="dropdown-icon">&#x25BC;</span>
+          </a>
+          <ul class="mobile-menu-submenu">
+            <li class="mobile-menu-item">
+              <a class="mobile-menu-link" href="allProduct.html">All Products</a>
+            </li>
+            
+            <li class="mobile-menu-item mobile-menu-dropdown">
+              <a class="mobile-menu-link" href="#">Structural Products
+                <span class="dropdown-icon">&#x25BC;</span>
+              </a>
+              <ul class="mobile-menu-submenu">
+                <li class="mobile-menu-item"><a class="mobile-menu-link" href="structuralProducts.html">All Structural Products</a></li>
+
+                <li class="mobile-menu-item"><a class="mobile-menu-link" href="OffshorePlates.html">Offshore Plates</a></li>
+
+                <li class="mobile-menu-item"><a class="mobile-menu-link" href="StructuralPlates.html">Structural Plates</a></li>
+
+                <li class="mobile-menu-item"><a class="mobile-menu-link" href="PressureVesselPlates.html">Pressure Vessel Plates</a></li>
+
+                <li class="mobile-menu-item"><a class="mobile-menu-link" href="Beams.html">Beams</a></li>
+
+                <li class="mobile-menu-item"><a class="mobile-menu-link" href="Channels.html">Channels</a></li>
+                <li class="mobile-menu-item"><a class="mobile-menu-link" href="Flats.html">Flats</a></li>
+                <li class="mobile-menu-item"><a class="mobile-menu-link" href="HollowSections.html">Hollow Sections</a></li>
+                <li class="mobile-menu-item"><a class="mobile-menu-link" href="Angles.html">Angles</a></li>
+
+
+              </ul>
+            </li>
+            <li class="mobile-menu-item mobile-menu-dropdown">
+              <a class="mobile-menu-link" href="#">Piping Products
+                <span class="dropdown-icon">&#x25BC;</span>
+              </a>
+              <ul class="mobile-menu-submenu">
+                <li class="mobile-menu-item"><a class="mobile-menu-link" href="PipingProducts.html">All Piping Products</a></li>
+                <li class="mobile-menu-item"><a class="mobile-menu-link" href="OffshoreSeamlessPipes.html">Offshore Seamless Pipes</a></li>
+
+                <li class="mobile-menu-item"><a class="mobile-menu-link" href="WeldedPipes.html">Welded Pipes</a></li>
+
+                <li class="mobile-menu-item"><a class="mobile-menu-link" href="StainlessSteelPipes.html">Stainless Steel Pipes</a></li>
+
+                <li class="mobile-menu-item"><a class="mobile-menu-link" href="Fittings.html">Fittings</a></li>
+
+                <li class="mobile-menu-item"><a class="mobile-menu-link" href="Flanges.html">Flanges</a></li>
+                <li class="mobile-menu-item"><a class="mobile-menu-link" href="Bolts&Nuts.html">Bolts & Nuts</a></li>
+                <li class="mobile-menu-item"><a class="mobile-menu-link" href="Gaskets.html">Gaskets</a></li>
+              </ul>
+            </li>
+            <li class="mobile-menu-item mobile-menu-dropdown">
+              <a class="mobile-menu-link" href="#">FC&I Products
+                <span class="dropdown-icon">&#x25BC;</span>
+              </a>
+              <ul class="mobile-menu-submenu">
+                <li class="mobile-menu-item"><a class="mobile-menu-link" href="FControl&InstrumentationProducts.html">All FC&I Products</a></li>
+                <li class="mobile-menu-item"><a class="mobile-menu-link" href="IndustrialHoses&Fittings.html">Industrial Hoses & Fittings</a></li>
+                <li class="mobile-menu-item"><a class="mobile-menu-link" href="Pressure&TemperatureGauges.html">Pressure & Temperature Gauges</a></li>
+                <li class="mobile-menu-item"><a class="mobile-menu-link" href="InstrumentTubing&Fittings.html">Instrument Tubing & Fittings</a></li>
+                <li class="mobile-menu-item"><a class="mobile-menu-link" href="ManualValves.html">Manual Valves</a></li>
+                <li class="mobile-menu-item"><a class="mobile-menu-link" href="InstrumentationValves.html">Instrumentation Valves</a></li>
+              </ul>
+            </li>
+            <li class="mobile-menu-item">
+              <a class="mobile-menu-link" href="engineeringProduts.html">Engineering Products</a>
+            </li>
+          </ul>
+        </li>
+  
+        <li class="mobile-menu-item">
+          <a class="mobile-menu-link" href="contactUs.html">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- header -->
+
+
+
+
+
+
+
+    <!-- hero -->
+    <section class="allProductBanner">
+      <div class="container">
+        <h1>Search Results</h1>
+      </div>
+    </section>
+    <!-- hero -->
+
+
+
+
+
+<section class="searchproduct sectionDeviderforDesktopBottomPadding sectionDeviderforDesktopTopPadding">
+  <div class="container">
+    <h1>All Search Results</h1>
+
+    <h2>3 results found for  <span>‘plates’</span></h2>
+
+    <div class="row searchproductwrapper">
+      <div class="col-lg-4 col-12 ">
+        <a href="OffshorePlates.html">   <img src="images/product/OffshorePlatesForsingleProducts.png" alt="" class="img-fluid"></a>
+      </div>
+
+      <div class="col-lg-8 col-12 singleSearchproduct">
+        <h2><a class="text-decoration-underline" href="OffshorePlates.html">Offshore Plates</a></h2>
+        <p><a href="OffshorePlates.html" class="text-decoration-underline">Explore our offshore plates designed for exceptional strength and durability in offshore structures, oil platforms, and marine projects</a></p>
+      </div>
+    </div>
+
+
+    <div class="row searchproductwrapper">
+      <div class="col-lg-4 col-12 ">
+        <a href="StructuralPlates.html">   <img src="images/Structural Plates/Rectangle 22 (2).png" alt="" class="img-fluid"></a>
+      </div>
+      <div class="col-lg-8 col-12 singleSearchproduct">
+        <h2><a class="text-decoration-underline" href="StructuralPlates.html">Structural Plates</a></h2>
+        <p><a href="StructuralPlates.html" class="text-decoration-underline">These structural plates are versatile and find extensive use in diverse construction projects, including bridges and highway infrastructure.</a></p>
+      </div>
+    </div>
+
+    <div class="row searchproductwrapper">
+      <div class="col-lg-4 col-12 ">
+        <a href="PressureVesselPlates.html">   <img src="images/Pressure Vessel Plates/Rectangle 22 (2).png" alt="" class="img-fluid"></a>
+      </div>
+      <div class="col-lg-8 col-12 singleSearchproduct">
+        <h2><a class="text-decoration-underline" href="PressureVesselPlates.html">Pressure Vessel Plates</a></h2>
+        <p><a href="PressureVesselPlates.html" class="text-decoration-underline">Our pressure vessel plates are engineered for high-stress environments, providing exceptional strength and resistance for applications in demanding pressure vessel operations.</a></p>
+      </div>
+    </div>
+
+
+
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- footer -->
+  <footer>
+    <div class="container container-custom">
+
+      <div class="row footerImage">
+        <div class="col-4">
+          <a href="index.html"><img src="images/tabsteelnewlogo (1).png" alt=""></a>
+        </div>
+        <div class="col-8">
+
+        </div>
+      </div>
+
+
+      <div class="row ">
+        <div class="col-lg-4 col-12">
+          <h3>About Us</h3>
+
+          <p class="hiddenfromTablet fotternewClass">
+            We specialise in delivering cost-effective, high quality steels and    engineering a
+            range of products, including structural steels, pipes, valves, bolts, gaskets, flanges, and fittings. We
+            cater to the needs of the oil and gas, marine, offshore and onshore, petrochemical, and renewable
+            industries, ensuring quality solutions that meet industry demands.
+          </p>
+
+          <p class="hiddeninDesktop">
+            We specialise in delivering cost-effective, high quality steels and    engineering a
+            range of products, 
+            <br> 
+            including structural steels, pipes, valves, bolts, gaskets, flanges, and fittings.
+            We cater to the needs 
+            <br> of the oil and gas, marine, offshore and onshore, petrochemical, and renewable
+            industries, ensuring <br> quality solutions that meet industry demands.
+          </p>
+
+        </div>
+
+
+        <div class="col-lg-8 col-12 ">
+          <div class="row">
+            <div class="col-md-4 col-12 footerofficepadding customwidthfofooter fotternewClass5" >
+              <h3>Office</h3>
+
+              <p class="hiddenfromTablet fotternewClass2">61 Kaki Bukit Avenue 1 #05-34 <br>
+                Shun Li Industrial Park, <br>
+                Singapore, 417943
+              </p>
+
+
+
+
+              <div class="hiddeninDesktop">
+                <div class="gmap_canvas">
+                  <iframe width="100%" height="50%" id="gmap_canvas"
+                    src="https://maps.google.com/maps?q=Shun Li Industrial Park, 61 Kaki Bukit Ave 1, Singapore 417943&t=&z=10&ie=UTF8&iwloc=&output=embed"
+                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                </div>
+              </div>
+
+
+            </div>
+
+
+
+
+            <div class="col-md-4 col-12 footerContactcustomPadding customwidthfofooter customwidthfofooter2 emailPhoneforDesktop footernewclass4">
+              <h3>Contact</h3>
+              <ul class="list-unstyled">
+                <li class="text-white footerNewMargin">Email :<a href="mailto:sales@tabsteels.com"> sales@tabsteels.com</a></li>
+                <li class="text-white">Phone : <a href="tel:+6598162261">(+65) 98162261</a></li>
+              </ul>
+            </div>
+
+
+
+
+            <div class="col-md-4 col-12 footerContactcustomPadding customwidthfofooter customwidthfofooter2 emailPhonefor767 footernewclass5">
+              <h3>Contact</h3>
+              <ul class="list-unstyled">
+                <li class="text-white footerNewMargin"> <img src="images/icon/envelope-alt.svg" alt=""> :<a href="mailto:sales@tabsteels.com"> sales@tabsteels.com</a></li>
+                <li class="text-white"> <img src="images/icon/phone (2).svg" alt=""> : <a href="tel:+6598162261">(+65) 98162261</a></li>
+              </ul>
+            </div>
+
+
+
+
+            <div class="col-md-4 col-12 footerContactcustomPadding2 customwidthfofooter fotternewClass3">
+              <h3>Link</h3>
+              <ul class="list-unstyled">
+                <li class="footerNewMargin"><a href="index.html">Home</a></li>
+                <li><a href="aboutUs.html">About Us</a></li>
+                <li><a href="allProduct.html">Products</a></li>
+                <li><a href="contactUs.html">Contact Us</a></li>
+                <li><a href="sitemap.html">Sitemap</a></li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row">
+
+
+        <div class="col-12">
+          <p class="hiddeninDesktop pt-3">61 Kaki Bukit Avenue 1 #05-34 <br>
+            Shun Li Industrial Park,
+            Singapore, 417943
+          </p>
+        </div>
+
+        <div class="col-lg-4 col-12 footerCustomp1">
+          <p> Designed by <a href="https://www.behance.net/christinelim26">Christine Lim</a> – <br> UIUX Designer for
+            Web & App Development</p>
+        </div>
+
+        <div class="col-lg-6 col-12 footerCustomp2">
+          <p class="m-0 copyRightforDesktop">Copyright © 2024 TAB STEELS PTE LTD. All Rights Reserved</p>
+
+          <p class="m-0 copyRightfor500">Copyright © 2024 TAB STEELS PTE LTD. <br> All Rights Reserved</p>
+        </div>
+
+
+
+
+      </div>
+
+    </div>
+  </footer>
+  <!-- footer -->
+
+
+
+
+
+<!-- Floating WhatsApp Button -->
+<div class="floating-wpp"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <!-- js bundle -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- carosel -->
+    <script src="js/owl.carousel.min.js"></script>
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+       AOS.init();
+    </script>
+    <!-- floating whatsapp -->
+    <script src="js/floating-wpp.min.js"></script>
+
+    <!-- mouse wheel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+
+
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- custom js -->
+    <script src="js/custom.js"></script>
+</body>
+</html>
